@@ -17,6 +17,12 @@ Key changes include:
 - Smoothed RTT-based adaptive RTO estimation (`UpdateRtoEstimate`).
 - Link-recovery signaling based on RTT ratio thresholds.
 
+
+## TCP-WestwoodNew-Improvement-NS3 :
+![Throughput vs Nodes](plots/wired_oat_requested/wired_oat_full/throughput_vs_nodes.png)
+
+
+
 ## Wired simulation setup done
 The wired OAT experiments vary one factor at a time with these values:
 - Nodes: 20, 40, 60, 80, 100
@@ -62,7 +68,3 @@ python3 scripts/plot_wired_time40_three.py
 ## Output locations
 - Data: `data/wired_oat/<run-tag>/`, `data/wired_time40/`
 - Plots: `plots/wired_oat/<run-tag>/`, `plots/wired_oat_requested/<run-tag>/`, `plots/wired_time40/`
-
-## Throughput vs Nodes
-![Throughput vs Nodes](plots/wired_oat_requested/wired_oat_full/throughput_vs_nodes.png)
-# TCP-WestwoodNew-Improvement-NS3
