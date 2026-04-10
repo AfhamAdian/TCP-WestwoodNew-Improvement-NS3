@@ -1,0 +1,2 @@
+runTag,variant,nNodes,nFlows,pps,seed,simulationTime,avgThroughputMbps,avgDelaySec,pdr,dropRatio,txPackets,rxPackets,lostPackets
+impl_check,TcpWestwoodPlus,20,10,100,1,5.000000,4.001600,0.102150,0.977868,0.018259,5422,5302,99

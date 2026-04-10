@@ -1,0 +1,9 @@
+tcpVariant,nNodes,nFlows,packetsPerSecond,coverageMultiplier,throughput_kbps,avgDelay_ms,pdr_percent,dropRatio_percent,energy_joules
+TcpWestwoodPlus,20,20,200,2,31.0720,87.9974,90.2076,6.0469,1.0960
+TcpWestwoodPlus,40,20,200,2,29.9200,78.8241,84.1184,10.1709,1.6338
+TcpWestwoodPlus,40,10,200,2,31.6800,87.1277,88.3457,6.0236,1.6207
+TcpWestwoodPlus,40,20,200,2,29.9200,78.8241,84.1184,10.1709,1.6338
+TcpWestwoodPlus,40,20,100,2,30.5280,87.6554,84.2962,7.6892,1.6495
+TcpWestwoodPlus,40,20,200,2,29.9200,78.8241,84.1184,10.1709,1.6338
+TcpWestwoodPlus,40,20,200,1,30.6560,78.2858,82.1734,9.9715,1.6416
+TcpWestwoodPlus,40,20,200,2,29.9200,78.8241,84.1184,10.1709,1.6338

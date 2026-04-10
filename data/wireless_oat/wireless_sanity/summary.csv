@@ -1,0 +1,4 @@
+tcpVariant,nNodes,nFlows,packetsPerSecond,coverageMultiplier,throughput_kbps,avgDelay_ms,pdr_percent,dropRatio_percent,energy_joules
+TcpDualModifiedTcpWestwoodPlusNew,20,10,100,2,32.6720,67.1858,88.7306,7.2107,1.1173
+TcpWestwoodPlusNew,20,10,100,2,31.2640,60.1076,87.7434,6.8584,1.0993
+TcpWestwoodPlus,20,10,100,2,30.4640,70.0204,86.9488,6.6370,1.0928

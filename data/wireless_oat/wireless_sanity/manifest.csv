@@ -1,0 +1,4 @@
+runTag,nNodes,nFlows,packetsPerSecond,coverageMultiplier,variant,simulationTime
+wireless_sanity,20,10,100,2,TcpDualModifiedTcpWestwoodPlusNew,20.0
+wireless_sanity,20,10,100,2,TcpWestwoodPlusNew,20.0
+wireless_sanity,20,10,100,2,TcpWestwoodPlus,20.0

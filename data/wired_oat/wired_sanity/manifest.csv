@@ -1,0 +1,4 @@
+runTag,nNodes,nFlows,pps,variant,seed,simulationTime,samplingInterval
+wired_sanity,20,10,100,TcpDualModifiedTcpWestwoodPlusNew,1,20.0,2.0
+wired_sanity,20,10,100,TcpWestwoodPlusNew,1,20.0,2.0
+wired_sanity,20,10,100,TcpWestwoodPlus,1,20.0,2.0

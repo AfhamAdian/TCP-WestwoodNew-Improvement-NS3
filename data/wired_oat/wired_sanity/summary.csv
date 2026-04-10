@@ -1,0 +1,4 @@
+runTag,variant,nNodes,nFlows,pps,seed,simulationTime,avgThroughputMbps,avgDelaySec,pdr,dropRatio,txPackets,rxPackets,lostPackets
+wired_sanity,TcpDualModifiedTcpWestwoodPlusNew,20,10,100,1,20.000000,4.634800,0.109915,0.987058,0.006535,23566,23261,154
+wired_sanity,TcpWestwoodPlusNew,20,10,100,1,20.000000,4.615200,0.109120,0.988692,0.006461,23524,23258,152
+wired_sanity,TcpWestwoodPlus,20,10,100,1,20.000000,4.608800,0.108224,0.988767,0.007063,23502,23238,166
