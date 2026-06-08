@@ -19,26 +19,16 @@ src/internet/model/tcp-dual-modified-tcp-westwoodplus-new.cc
 
 ## Key Changes
 
-> **Bandwidth-ratio based congestion window** — Window size governed by `CalculateBWRatio`, tying `cwnd` directly to observed bandwidth ratios.
+**Bandwidth-ratio based congestion window** — Window size governed by BWRatio (`CalculateBWRatio`).
 
-> **Adaptive congestion avoidance** — Three-mode behavior:
-> - Faster growth when bandwidth improves
-> - Normal additive increase under stable load
-> - Proportional decay when bandwidth drops
+**Adaptive congestion avoidance**
+- Faster growth when bandwidth improves
+- Normal additive increase under stable load
+- Proportional decay when bandwidth drops
 
-> **Smoothed RTT-based adaptive RTO** — Retransmission timeout estimated via `UpdateRtoEstimate` using smoothed RTT signals.
+**Smoothed RTT-based adaptive RTO** — Adaptive RTO estimated using smoothed RTT signals ( `UpdateRtoEstimate` ).
 
-> **Link-recovery signaling** — Recovery events triggered based on RTT ratio thresholds for fast path restoration detection.
-
-
-### Key changes include:
-- **Bandwidth-ratio based congestion window** behavior (`CalculateBWRatio`).
-- **Adaptive congestion avoidance**:
-  - Faster growth when bandwidth improves.
-  - Normal additive increase under stable load.
-  - Proportional decay when bandwidth drops.
-- **Smoothed RTT-based** adaptive RTO estimation (`UpdateRtoEstimate`).
-- Link-recovery signaling based on **RTT ratio thresholds**.
+**Link-recovery signaling** — Recovery events triggered based on RTT ratio thresholds.
   
 
 ## Throughput vs. Nodes
