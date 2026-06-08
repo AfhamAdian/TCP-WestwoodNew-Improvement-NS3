@@ -1,18 +1,13 @@
 # TCP Westwood+ Modification · NS-3
-> Congestion control improvements targeting throughput and packet loss reduction in wired network simulations.
-
----
 
 ## What this project is
-
 Modified the **TCP Westwood+** congestion control algorithm, targeting improve throughput and reduce packet loss.
 
 Detailed documentation is available in:
 
-* `Overview and findings/Project Overview.pdf` (![Detailed Overview](<Overview and findings/Project Overview.pdf>))
-* `Overview and findings/Findings-Report.pdf`  (!![Findings](<Overview and findings/Findings-Report.pdf>))
+* `Overview and findings/Project Overview.pdf`   (![Detailed Overview](<Overview and findings/Project Overview.pdf>))
+* `Overview and findings/Findings-Report.pdf`    (![Findings](<Overview and findings/Findings-Report.pdf>))
 
----
 
 ## Core Modifications
 
