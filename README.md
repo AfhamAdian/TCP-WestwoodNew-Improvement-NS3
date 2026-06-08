@@ -1,8 +1,7 @@
 # NS-3 TCP Westwood+ Modification Project (Quick README)
 
 ## What this project is
-This project extends NS-3 with a custom TCP variant and evaluates it on wired and wireless scenarios for OAT-style analysis.  
-The main focus is collecting simulation data and plots for later report writing.
+Tweaking `TCP westwood plus` congestion control algorithm, improving throughput and packet loss.
 
 ## Modifications done
 Custom congestion control logic was implemented in:
@@ -20,7 +19,7 @@ Key changes include:
 
 ## TCP-WestwoodNew-Improvement-NS3 :
 ![Throughput vs Nodes](plots/wired_oat_requested/wired_oat_full/throughput_vs_nodes.png)
-
+![Findings]()
 
 
 ## Wired simulation setup done
